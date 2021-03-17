@@ -58,7 +58,7 @@ Pored svih mogućnosti koje ima gost, free korisnik također ima mogućnost
 Premium korisnicima naše aplikacije osim svih opcija koje imaju free korisnici omogućeno je i:
 - Učešće u nagradnim igrama
 - Ostvarivanje prava na besplatne ulaznice
-Za razliku od većine dosad poznatih sličnih aplikacija, FlexFlix 
+- Za razliku od većine dosad poznatih sličnih aplikacija, FlexFlix 
 aplikacija svojim premium korisnicima pruža i opciju da predlože film koji bi željeli
 vidjeti na velikom platnu, a koji u skorije vrijeme nije bio na rasporedu prikazivanja. 
-Ukoliko premium korisnik ostvari pravo na besplatnu ulaznicu, aplikacija ga o tome obavještava kratkom porukom.
+- Ukoliko premium korisnik ostvari pravo na besplatnu ulaznicu, aplikacija ga o tome obavještava kratkom porukom.
