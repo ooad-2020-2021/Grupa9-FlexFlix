@@ -5,9 +5,9 @@
 Web aplikacija za kino 
 
 ## Članovi:
-1. [Nikolina Kokor] (https://github.com/nkokor1)
-2. [Admir Mehmedagić] (https://github.com/amehmedagi1)
-3. [Tarik Memić] (https://github.com/tmemic1)
+1. [Nikolina Kokor](https://github.com/nkokor1)
+2. [Admir Mehmedagić](https://github.com/amehmedagi1)
+3. [Tarik Memić](https://github.com/tmemic1)
 
 ## Opis teme:
 FlexFlix je web aplikacija čiji je osnovni cilj poboljšanje poslovanja kina uvođenjem 
