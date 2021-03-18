@@ -22,6 +22,7 @@ informacije o našim projekcijama iz komfora njihovog doma, te istima šalje oba
 - Mogućnost pisanja i čitanja recenzija za filmove koji se nalaze na rasporedu gledanja
 - Mogućnost gledanja trailera za filmove
 - Online rezervacija karata uz mogućnost izbora sjedišta
+- Online plaćanje karata
 - Ostvarivanje popusta
 - Pregled posebnih ponuda
 - Sakupljanje nagradnih poena
