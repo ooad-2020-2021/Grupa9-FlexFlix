@@ -18,10 +18,10 @@ informacije o našim projekcijama iz komfora njihovog doma, te istima šalje oba
 
 ## Funkcionalnosti:
 - Registracija i prijava korisnika
-- Pregled rasporeda filmova za tekuću sedmicu po danima i po naslovima
+- Pregled rasporeda filmova za tekuću sedmicu po danima i po naslovima, te po žanru, cijeni ulaznice ili ocjeni filma
 - Mogućnost pisanja i čitanja recenzija za filmove koji se nalaze na rasporedu gledanja
 - Mogućnost gledanja trailera za filmove
-- Online rezervacija karata uz mogućnost izbora sjedišta
+- Online rezervacija karata uz mogućnost izbora sjedišta najkasnije 24 h prije prikazivanja
 - Online plaćanje karata
 - Ostvarivanje popusta
 - Pregled posebnih ponuda
