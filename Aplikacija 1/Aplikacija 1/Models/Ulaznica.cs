@@ -6,17 +6,22 @@ using System.Threading.Tasks;
 
 namespace Aplikacija_1.Models
 {
-    public class TerminPrikazivanja
+    public class Ulaznica
     {
         #region Properties
         [Key]
         [Required]
         public string Id { get => id; }
         [Required]
-        public DanUSedmici Dan { get => dan; set => dan = value; }
+        public string Film { get => film; }
         [Required]
-        [DataType(DataType.DateTime)]
-        public DateTime DatumIVrijeme { get => datumIVrijeme; set => datumIVrijeme = value; }
+        public double Cijena { get => cijena; }
+        [Required]
+        public string DvoranaId { get => dvoranaId; }
+        [Required]
+        public string SjedisteId { get => sjedisteId; }
+        [Required]
+        public TerminPrikazivanja Termin { get => termin; }
         #endregion
 
     }
