@@ -9,22 +9,22 @@ namespace Aplikacija_1.Models
     public class RegistrovaniKorisnik
     {
         #region Properties
+        [Required]
         [Key]
+        public int Id { get; set; }
         [Required]
-        private int Id { get => id; }
+        public string Username { get; set; }
         [Required]
-        public string Username { get => username; set => username = value; }
+        public string Password { get; set; }
         [Required]
-        public string Password { get => password; set => password = value; }
+        public string Ime { get; set; }
         [Required]
-        public string Ime { get => ime; set => ime = value; }
+        public string Prezime { get; set; }
         [Required]
-        public string Prezime { get => prezime; set => prezime = value; }
+        public string Email { get; set; }
+        public string ProfilnaFotografija { get; set; }
         [Required]
-        public string Email { get => email; set => email = value; }
-        public string ProfilnaFotografija { get => profilnaFotografija; set => profilnaFotografija = value; }
-        [Required]
-        public bool JeLiAdmin { get => jeLiAdmin; set => jeLiAdmin = value; }
+        public bool JeLiAdmin { get; set; }
         #endregion
 
     }

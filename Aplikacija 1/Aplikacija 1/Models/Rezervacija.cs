@@ -10,15 +10,15 @@ namespace Aplikacija_1.Models
     public class Rezervacija
     {
         #region Properties
+        [Required]
         [Key]
+        public string Id { get; set; }
         [Required]
-        private string Id { get => id; }
+        public string Korisnik { get; set; }
         [Required]
-        public string Korisnik { get => korisnik; }
-        [Required]
-        public double Cijena { get => cijena; }
+        public double Cijena { get; set; }
         [NotMapped]
-        public List<Ulaznica> Ulaznice { get => ulaznice; }
+        public List<Ulaznica> Ulaznice { get; set; }
         #endregion
 
     }

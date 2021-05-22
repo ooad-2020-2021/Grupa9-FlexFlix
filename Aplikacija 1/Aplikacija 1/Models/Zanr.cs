@@ -9,11 +9,11 @@ namespace Aplikacija_1.Models
     public class Zanr
     {
         #region Properties
+        [Required]
         [Key]
+        public int Id { get; set; }
         [Required]
-        public int Id { get => id; }
-        [Required]
-        public string ZanrTip { get => zanrTip; }
+        public string ZanrTip { get; set; }
         #endregion
     }
 }

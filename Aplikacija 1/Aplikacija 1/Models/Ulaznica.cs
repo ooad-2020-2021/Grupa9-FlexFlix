@@ -9,19 +9,19 @@ namespace Aplikacija_1.Models
     public class Ulaznica
     {
         #region Properties
+        [Required]
         [Key]
+        public string Id { get; set; }
         [Required]
-        private string Id { get => id; }
+        public string Film { get; set; }
         [Required]
-        public string Film { get => film; }
+        public double Cijena { get; set; }
         [Required]
-        public double Cijena { get => cijena; }
+        public string DvoranaId { get; set; }
         [Required]
-        public string DvoranaId { get => dvoranaId; }
+        public string SjedisteId { get; set; }
         [Required]
-        public string SjedisteId { get => sjedisteId; }
-        [Required]
-        public TerminPrikazivanja Termin { get => termin; }
+        public TerminPrikazivanja Termin { get; set; }
         #endregion
 
     }

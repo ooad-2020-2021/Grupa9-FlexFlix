@@ -1,4 +1,4 @@
-using Aplikacija_1.Data;
+﻿using Aplikacija_1.Data;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.HttpsPolicy;
@@ -34,6 +34,9 @@ namespace Aplikacija_1
                 .AddEntityFrameworkStores<ApplicationDbContext>();
             services.AddControllersWithViews();
             services.AddRazorPages();
+
+            services.AddDbContext<DataContext>(options =>
+                    options.UseSqlServer(Configuration.GetConnectionString("DataContext")));
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.

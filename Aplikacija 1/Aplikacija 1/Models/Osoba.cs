@@ -9,11 +9,11 @@ namespace Aplikacija_1.Models
     public class Osoba
     {
         #region Properties
+        [Required]
         [Key]
+        public int Id { get; set; }
         [Required]
-        private int Id { get => id; }
-        [Required]
-        public string ImeIPrezime { get => imeIPrezime; set => imeIPrezime = value; }
+        public string ImeIPrezime { get; set; }
         #endregion
     }
 }

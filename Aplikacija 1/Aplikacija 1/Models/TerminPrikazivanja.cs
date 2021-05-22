@@ -9,12 +9,12 @@ namespace Aplikacija_1.Models
     public class TerminPrikazivanja
     {
         #region Properties
-        [Key]
         [Required]
-        private string Id { get => id; }
+        [Key]
+        public string Id { get; set; }
         [Required]
         [DataType(DataType.DateTime)]
-        public DateTime vrijeme { get => datumIVrijeme; set => datumIVrijeme = value; }
+        public DateTime Vrijeme { get; set; }
         #endregion
 
     }

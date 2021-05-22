@@ -10,15 +10,13 @@ namespace Aplikacija_1.Models
     public class Dvorana
     {
         #region Properties
+        [Required]
         [Key]
+        public int Id { get; set; }
         [Required]
-        private int Id {  get => id; }
-        [Required]
-        public string Id { get => id; }
-        [Required]
-        public int BrojSjedista { get => brojSjedista; }
+        public int BrojSjedista { get; set; }
         [NotMapped]
-        public List<Sjediste> Sjedista { get => sjedista; }
+        public List<Sjediste> Sjedista { get; set; }
         #endregion
 
     }

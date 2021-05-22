@@ -9,11 +9,11 @@ namespace Aplikacija_1.Models
     public class Sjediste
     {
         #region Properties
+        [Required]
         [Key]
+        public string Id { get; set; }
         [Required]
-        public string Id { get => id; }
-        [Required]
-        public bool JeLiSlobodno { get => jeLiSlobodno; set => jeLiSlobodno = value; }
+        public bool JeLiSlobodno { get; set; }
         #endregion
 
     }

@@ -10,33 +10,33 @@ namespace Aplikacija_1.Models
     public class Film
     {
         #region Properties
+        [Required]
         [Key]
+        public int Id { get; set; }
         [Required]
-        private int Id { get => id; }
+        public string Naziv { get; set; }
         [Required]
-        public string Naziv { get => naziv; }
+        public int Godina { get; set; }
         [Required]
-        public int Godina { get => godina; }
-        [Required]
-        public int Trajanje { get => trajanje; }
+        public int Trajanje { get; set; }
         [NotMapped]
-        public List<Osoba> Glumci { get => glumci; }
+        public List<Osoba> Glumci { get; set; }
         [NotMapped]
-        public List<Osoba> Reziseri { get => reziseri; }
+        public List<Osoba> Reziseri { get; set; }
         [NotMapped]
-        public List<TerminPrikazivanja> TerminiPrikazivanja { get => terminiPrikazivanja; set => terminiPrikazivanja = value; }
+        public List<TerminPrikazivanja> TerminiPrikazivanja { get; set; }
         [Required]
-        public string Slika { get => slika; set => slika = value; }
+        public string Slika { get; set; }
         [Required]
-        public string Trailer { get => trailer; }
-        public List<Zanr> Zanrovi { get => zanrovi; }
+        public string Trailer { get; set; }
+        public List<Zanr> Zanrovi { get; set; }
         [Required]
-        public double CijenaUlaznice { get => cijenaUlaznice; set => cijenaUlaznice = value; }
-        public double ProsjecnaOcjena { get => prosjecnaOcjena; set => prosjecnaOcjena = value; }
+        public double CijenaUlaznice { get; set; }
+        public double ProsjecnaOcjena { get; set; }
         [NotMapped]
-        public List<Ocjena> Ocjene { get => ocjene; set => ocjene = value; }
+        public List<Ocjena> Ocjene { get; set; }
         [Required]
-        public string Opis { get => opis; set => opis = value; }
+        public string Opis { get; set; }
         #endregion
     }
 }
