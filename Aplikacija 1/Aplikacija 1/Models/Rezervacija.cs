@@ -12,7 +12,7 @@ namespace Aplikacija_1.Models
         #region properties
         [Key]
         [Required]
-        public string Id { get => id; }
+        private string Id { get => id; }
         [Required]
         public string Korisnik { get => korisnik; }
         [Required]

@@ -11,12 +11,10 @@ namespace Aplikacija_1.Models
         #region Properties
         [Key]
         [Required]
-        public string Id { get => id; }
-        [Required]
-        public DanUSedmici Dan { get => dan; set => dan = value; }
+        private string Id { get => id; }
         [Required]
         [DataType(DataType.DateTime)]
-        public DateTime DatumIVrijeme { get => datumIVrijeme; set => datumIVrijeme = value; }
+        public DateTime vrijeme { get => datumIVrijeme; set => datumIVrijeme = value; }
         #endregion
 
     }

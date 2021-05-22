@@ -11,6 +11,7 @@ namespace Aplikacija_1.Models
     {
         #region Properties
         [Key]
+        private int Id {  get => id; }
         [Required]
         public string Id { get => id; }
         [Required]

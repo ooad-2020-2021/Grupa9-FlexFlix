@@ -1,6 +1,10 @@
 {
   "ExpandedNodes": [
-    ""
+    "",
+    "\\Aplikacija 1",
+    "\\Aplikacija 1\\Aplikacija 1",
+    "\\Aplikacija 1\\Aplikacija 1\\Models"
   ],
+  "SelectedNode": "\\Aplikacija 1\\Aplikacija 1\\Models\\Film.cs",
   "PreviewInSolutionExplorer": false
 }

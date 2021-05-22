@@ -11,7 +11,7 @@ namespace Aplikacija_1.Models
         #region Properties
         [Key]
         [Required]
-        public string Id { get => id; }
+        private string Id { get => id; }
         [Required]
         public string Film { get => film; }
         [Required]
