@@ -10,6 +10,7 @@ namespace Aplikacija_1.Models
     {
         #region Properties
         [Key]
+        [Required]
         private int Id { get => id; }
         [Required]
         public string Username { get => username; set => username = value; }

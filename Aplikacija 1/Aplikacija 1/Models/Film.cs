@@ -11,7 +11,8 @@ namespace Aplikacija_1.Models
     {
         #region Properties
         [Key]
-        private int Id { get => Id; }
+        [Required]
+        private int Id { get => id; }
         [Required]
         public string Naziv { get => naziv; }
         [Required]
@@ -19,9 +20,9 @@ namespace Aplikacija_1.Models
         [Required]
         public int Trajanje { get => trajanje; }
         [NotMapped]
-        public List<Glumac> Glumci { get => glumci; }
+        public List<Osoba> Glumci { get => glumci; }
         [NotMapped]
-        public List<Reziser> Reziseri { get => reziseri; }
+        public List<Osoba> Reziseri { get => reziseri; }
         [NotMapped]
         public List<TerminPrikazivanja> TerminiPrikazivanja { get => terminiPrikazivanja; set => terminiPrikazivanja = value; }
         [Required]

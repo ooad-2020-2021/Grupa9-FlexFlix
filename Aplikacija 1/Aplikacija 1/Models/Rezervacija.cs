@@ -9,7 +9,7 @@ namespace Aplikacija_1.Models
 {
     public class Rezervacija
     {
-        #region properties
+        #region Properties
         [Key]
         [Required]
         private string Id { get => id; }

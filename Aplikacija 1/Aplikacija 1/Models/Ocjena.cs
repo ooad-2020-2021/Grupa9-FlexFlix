@@ -1,25 +1,22 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
-using System.ComponentModel.DataAnnotations.Schema;
 using System.Linq;
 using System.Threading.Tasks;
 
 namespace Aplikacija_1.Models
 {
-    public class Dvorana
+    public class Ocjena
     {
         #region Properties
         [Key]
         [Required]
-        private int Id {  get => id; }
+        public int Id { get => id;  }
         [Required]
-        public string Id { get => id; }
+        public int FilmId { get => filmId; }
         [Required]
-        public int BrojSjedista { get => brojSjedista; }
-        [NotMapped]
-        public List<Sjediste> Sjedista { get => sjedista; }
+        public int OcjenaVrijednost { get => ocjenaVrijednost; }
+        public string Komentar { get => komentar; set => komentar = value; }
         #endregion
-
     }
 }
